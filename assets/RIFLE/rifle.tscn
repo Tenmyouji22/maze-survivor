@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://dpgxrgm1d16jx"]
 
-[ext_resource type="Script" uid="uid://d6ajuweehwsb" path="res://RIFLE.cs" id="1_amdq0"]
+[ext_resource type="Script" uid="uid://dksf5w1eiwl5e" path="res://RIFLE.gd" id="1_0koic"]
 [ext_resource type="PackedScene" uid="uid://8jiu43rm4bdn" path="res://sks.glb" id="1_j33d7"]
-[ext_resource type="PackedScene" uid="uid://qqy73qx0wyia" path="res://Bala.tscn" id="2_msqsb"]
+[ext_resource type="PackedScene" uid="uid://qqy73qx0wyia" path="res://pistola/Bala.tscn" id="2_msqsb"]
 [ext_resource type="AudioStream" uid="uid://e5kdsac6tyh1" path="res://rife (mp3cut.net).mp3" id="5_0koic"]
 [ext_resource type="AudioStream" uid="uid://bkvltp6smu307" path="res://reloadsssss.mp3" id="6_msqsb"]
 
@@ -84,9 +84,9 @@ _data = {
 size = Vector3(2.7039566, 1.3956223, 3.5035515)
 
 [node name="rifle" type="Node3D" unique_id=901842793]
-transform = Transform3D(17, 0, 0, 0, 17, 0, 0, 0, 17, 0, 0, 0)
-script = ExtResource("1_amdq0")
-EscenaBala = ExtResource("2_msqsb")
+transform = Transform3D(30, 0, 0, 0, 30, 0, 0, 0, 30, 0, 0, 0)
+script = ExtResource("1_0koic")
+escena_bala = ExtResource("2_msqsb")
 
 [node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="." unique_id=595845333]
 transform = Transform3D(1, 0, 0, 0, 0.62475216, -0.7808231, 0, 0.7808231, 0.62475216, -0.010235429, -0.3606117, -0.0073039527)
